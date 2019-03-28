@@ -53,7 +53,7 @@
 	<!-- Examen Estilos -->
 	<link rel="stylesheet" href="css/examen.css">
 
-	
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -69,13 +69,10 @@
 		</div>
 	</header>
 
-
 	<body>
 	
 	<div id="page">
 	<nav class="qbootstrap-nav" role="navigation">
-		<!-- -->
-
 <!-- Formulario-->
 					<form data-toggle="validator" role="form">
 								<div class="col-xs-4 text-center">
