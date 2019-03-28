@@ -50,7 +50,10 @@
 	<link rel="stylesheet" href="css/flexslider.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+	<!-- Examen Estilos -->
+	<link rel="stylesheet" href="css/examen.css">
 
+	
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -59,25 +62,19 @@
 	<![endif]-->
 
 	</head>
+
+	<header>
+		<div class="exam">
+			<h1> Online Exam <h1>
+		</div>
+	</header>
+
+
 	<body>
-		
-	<div class="qbootstrap-loader"></div>
 	
 	<div id="page">
 	<nav class="qbootstrap-nav" role="navigation">
 		<!-- -->
-
-			<footer id="qbootstrap-footer" role="contentinfo">
-			<div class="overlay col-md-12 text-center" style="background-color: #ebebeb"><h1 style="color: black"><i>Online Exam</i></h1></div>
-				
-					<div class="col-md-12 text-center">
-						<p>
-							<div>Online Exam</div>
-		                    <small class="block"></small>
-		        </p>
-					</div>
-				
-			</footer> 
 
 <!-- Formulario-->
 					<form data-toggle="validator" role="form">
