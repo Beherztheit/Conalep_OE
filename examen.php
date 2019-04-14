@@ -176,7 +176,7 @@
 				</div>
 				<br>
 				<!-- Boton para terminar examen-->
-				<center><a href="index.html"><button type="button" class="btn btn-success" id="fin">Terminar.</button></a></center>	
+				<center><a href="index.php"><button type="button" class="btn btn-success" id="fin">Terminar.</button></a></center>	
 			</form>	
 						
 </div>
@@ -215,7 +215,7 @@
 					//
 					// Temporizador
 		function redireccionar(){
-			window.location.href="Segundoexamen.html";
+			window.location.href="login.php";
 			alert("Haz llegado al tiempo límite.");
 		}
 
