@@ -201,7 +201,6 @@
 						//break;
 						//alert('el marcado es: ' + formulario.primer[i].value + '.')
 					   	//console.log('el marcado es: ' + formulario.primer[i].value + '.');
-					
 						}
 						if (formulario.segunda[i].checked) {
 							var respuesta2=formulario.segunda[i].value+'.';
@@ -210,7 +209,6 @@
 					}
 					console.log("R1"+respuesta1);
 					console.log("R2"+respuesta2);
-				
 					}
 					
 					//
