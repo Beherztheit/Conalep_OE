@@ -14,7 +14,6 @@
 
   <!-- 
 	//////////////////////////////////////////////////////
-
 	FREE HTML5 TEMPLATE 
 	DESIGNED & DEVELOPED by QBOOTSTRAP.COM
 		
@@ -31,6 +30,10 @@
 	<meta property="og:url" content=""/>
 	<meta property="og:site_name" content=""/>
 	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
@@ -50,58 +53,70 @@
 	<link rel="stylesheet" href="css/flexslider.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-	<!-- Examen Estilos -->
-	<link rel="stylesheet" href="css/examen.css">
-
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
 	</head>
-
-	<header>
-		<div class="exam">
-			<h1> Online Exam <h1>
-		</div>
-	</header>
-
 	<body>
+		
+	<div class="qbootstrap-loader"></div>
 	
 	<div id="page">
 	<nav class="qbootstrap-nav" role="navigation">
+		<!-- -->
+
+			<footer id="qbootstrap-footer" role="contentinfo">
+			<div class="overlay col-md-12 text-center" style="background-color: #ebebeb"><h1 style="color: black"><i>Online Exam</i></h1></div>
+				
+					<div class="col-md-12 text-center">
+						<p>
+							<div>Online Exam</div>
+		                    <small class="block"></small>
+		        </p>
+					</div>
+				
+			</footer> 
+
 <!-- Formulario-->
 					<form data-toggle="validator" role="form">
 								<div class="col-xs-4 text-center">
 									<div class="form-group">
 										<label for="inputName"class="control-label" >Name: </label>
-										<input type="text" class="form-control" id="Nombrealumno" placeholder="Complete Name" required>
+										<input type="text" class="form-control" id="exampleInputName2" placeholder="Complete Name" required>
 									</div>
 								</div>
 								<div class="col-xs-4 text-center ">
 										<div class="form-group">
-											<label for="inputName" class="control-label">Maestro: </label>
-											<input type="text" class="form-control" id="NombreMaestro" placeholder="Complete Name" required>
+											<label for="inputName" class="control-label">Sensei: </label>
+											<input type="text" class="form-control" id="exampleInputName2" placeholder="Complete Name" required>
 										</div>
 								</div>
 								<div class="col-xs-4 text-center ">
 										<div class="form-group">
 											<label for="inputName" class="control-label">Subject-matter: </label>
-											<input type="text" class="form-control" id="Materia" placeholder="Subject-matter" required>
+											<input type="text" class="form-control" id="exampleInputName2" placeholder="Subject-matter" required>
 										</div>
 								</div>
 									<div class="col-xs-6 col-sm-3">
 										<div class="form-group">
 											<label for="inputName" class="control-label">Grade: </label>
-											<input type="text" class="form-control" id="Grado" placeholder="Subject-matter" required>
+											<input type="text" class="form-control" id="exampleInputName2" placeholder="Subject-matter" required>
 										</div>
 							    </div>
 									<div class="col-xs-6 col-sm-3 text-center ">
 										  <div class="form-group">
 												<label for="inputName" class="control-label">Group: </label>
-										    <input type="text" class="form-control" id="Grupo" placeholder="Subject-matter"required>
+										    <input type="text" class="form-control" id="exampleInputName2" placeholder="Subject-matter"required>
 											</div>
 									</div>
-											<a href="examen.php"><button type="button" class="btn btn-primary">Aceptar</button></a>	
+									<div class="form-group">  
+											<a href="Primer_examen.html"><button type="submit" class="btn btn-primary">Aceptar</button></a>
+									</div>
 					</form>
 					<!--Fin Formulario-->
 	</nav>
@@ -113,7 +128,7 @@
 			<div class="col-md-12 text-center">
 				<p>
                     <small class="block">&copy; 2019</small> 
-                    <small class="block"></small>
+                    <small class="block">Designed by <a href="https://qbootstrap.com/" target="_blank">Universidad Politecnica de Juventino Rosas.</a></small>
                 </p>
 			</div>
 		</div>
@@ -150,4 +165,3 @@
 
 	</body>
 </html>
-
