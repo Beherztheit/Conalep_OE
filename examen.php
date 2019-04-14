@@ -13,8 +13,6 @@
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Magnific Popup -->
@@ -31,10 +29,6 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
 
     </head>
     
@@ -53,52 +47,36 @@
         <center><label id = "tiempo">50:00</label></center>
 
         <div class="preguntas">
-        <form role="form" method="POST">
+        <form role="form"  onchange="javascript:detector()">
 				<h4>1.- Son los sistemas de medidas que se usan comúnmente en las herramientas.</h4>
 				<div  id="1">
-					<label class="checkbox-inline">
-				    <input name="1[]" type="checkbox" id="inLinecheckbox2" value="Sistema decimal e ingles" required>
+					<label class="radio-inline">
+				    <input name="a" type="radio" id="primer" value="Sistema decimal e ingles" required>
 				    	a) Sistema decimal e inglés.
 				    </label>
-				    	<label class="checkbox-inline">
-			  		<input name= "1[]" type="checkbox" id="inlineCheckbox2" value="Sistema ingles y metrico" required>
+				    	<label class="radio-inline">
+			  		<input name= "a" type="radio" id="primer" value="Sistema ingles y metrico" required>
 			  			b) Sistema inglés y métrico.
 			  		</label>
-			  		<label class="checkbox-inline">
-			  		<input name="1[]" type="checkbox" id="inlineCheckbox3" value="Sistema vigesimal y decimal" required>
+			  		<label class="radio-inline">
+			  		<input name="a" type="radio" id="primer" value="Sistema vigesimal y decimal" required>
 			  			c) Sistema vigesimal y decimal.
 			  		</label>
-					  <button type="submit" class="btn btn-primary" name="enviar">Enviar Información</button>
-				</div>
-				<?php 
-				if(isset($_POST['enviar'])){
-					if(!empty($_POST['1'])) {
-					// Contando el numero de input seleccionados "checked" checkboxes.
-					$checked_contador = count($_POST['1']);
-					echo "<p>Has seleccionado los siguientes ".$checked_contador." opcione(s):</p> <br/>";
-					// Bucle para almacenar y visualizar valores activados checkbox.
-					foreach($_POST['1'] as $seleccion) {
-					echo "<p>".$seleccion ."</p>";
-					}
-					echo "<br/><b>Nota :</b> <span>De manera similar, también puede realizar operaciones CRUD usando estos valores seleccionados.</span>";
-					}
-					else{
-					echo "<p><b>Por favor seleccione al menos una opción.</b></p>";
-					}
-					}
-					?>				
+				</div>				
 
 				<!-- -->
 				<h4>2.- Son las medidas de matracas, manerales, dados, extensiones y accesorios.</h4>
 				<div id="2">
-				    <input type="checkbox" id="checkbox1" value="option1">
-				    	a) a. 5/8, 13/16, 1/4 y 3/8.  
-				    	<br>
-			  		<input type="checkbox" id="checkbox2" value="option2">
+					<label class="radio-inline">
+				    <input type="radio" id="segunda" name ="b" value="5/8, 13/16, 1/4 y 3/8" required>
+				    	a) 5/8, 13/16, 1/4 y 3/8.  
+						<br>
+			  		<input type="radio" id="segunda" name ="b" value="1/5, 3/8, 10/16 y 7/8" required>
 			  			b) 1/5, 3/8, 10/16 y 7/8.
 			  			<br>
-			  			<input type="checkbox" id="checkbox3" value="option3">
-			  			c) 1/4, 3/8, 1/2 y 3/4.
+			  			<input type="radio" id="segunda" name ="b" value="1/4, 3/8, 1/2 y 3/4" required>
+						  c) 1/4, 3/8, 1/2 y 3/4.
+					</label>
 				</div>
 				<!-- -->
 				<h4>3.- Son las herramientas para quitar y poner las bujías de 5/8 de un vehículo. </h4>
@@ -211,7 +189,33 @@
 
 
     <!--Contador-->
-    <script type="text/javascript">
+	<script type="text/javascript">
+	//
+	//Respuestas seleccionadas
+	function detector() {
+		//Respuesta1
+					var formulario = document.forms[0];
+					for (var i = 0; i < formulario.a.length; i++) {
+						if (formulario.primer[i].checked) {
+							var respuesta1=formulario.primer[i].value+'.';
+						//break;
+						//alert('el marcado es: ' + formulario.primer[i].value + '.')
+					   	//console.log('el marcado es: ' + formulario.primer[i].value + '.');
+					
+						}
+						if (formulario.segunda[i].checked) {
+							var respuesta2=formulario.segunda[i].value+'.';
+						//break;
+						}
+					}
+					console.log("R1"+respuesta1);
+					console.log("R2"+respuesta2);
+				
+					}
+					
+					//
+					//
+					// Temporizador
 		function redireccionar(){
 			window.location.href="Segundoexamen.html";
 			alert("Haz llegado al tiempo límite.");
