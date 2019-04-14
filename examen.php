@@ -49,25 +49,45 @@
             Para resolver el examen tienes un tiempo máximo de 50 minutos. 
             No se requiere ningún instrumento (formulario, calculadora o tabla periódica).
         </div>
+		<center><label id= "TiempoExamen">Tiempo de Exámen</label></center>
         <center><label id = "tiempo">50:00</label></center>
 
         <div class="preguntas">
-        <form role="form">
+        <form role="form" method="POST">
 				<h4>1.- Son los sistemas de medidas que se usan comúnmente en las herramientas.</h4>
 				<div  id="1">
 					<label class="checkbox-inline">
-				    <input type="checkbox" id="inlineCheckbox1" value="option1" required>
+				    <input name="1[]" type="checkbox" id="inLinecheckbox2" value="Sistema decimal e ingles" required>
 				    	a) Sistema decimal e inglés.
 				    </label>
 				    	<label class="checkbox-inline">
-			  		<input type="checkbox" id="inlineCheckbox2" value="option2" required>
+			  		<input name= "1[]" type="checkbox" id="inlineCheckbox2" value="Sistema ingles y metrico" required>
 			  			b) Sistema inglés y métrico.
 			  		</label>
 			  		<label class="checkbox-inline">
-			  		<input type="checkbox" id="inlineCheckbox3" value="option3" required>
+			  		<input name="1[]" type="checkbox" id="inlineCheckbox3" value="Sistema vigesimal y decimal" required>
 			  			c) Sistema vigesimal y decimal.
 			  		</label>
+					  <button type="submit" class="btn btn-primary" name="enviar">Enviar Información</button>
 				</div>
+				<?php 
+				if(isset($_POST['enviar'])){
+					if(!empty($_POST['1'])) {
+					// Contando el numero de input seleccionados "checked" checkboxes.
+					$checked_contador = count($_POST['1']);
+					echo "<p>Has seleccionado los siguientes ".$checked_contador." opcione(s):</p> <br/>";
+					// Bucle para almacenar y visualizar valores activados checkbox.
+					foreach($_POST['1'] as $seleccion) {
+					echo "<p>".$seleccion ."</p>";
+					}
+					echo "<br/><b>Nota :</b> <span>De manera similar, también puede realizar operaciones CRUD usando estos valores seleccionados.</span>";
+					}
+					else{
+					echo "<p><b>Por favor seleccione al menos una opción.</b></p>";
+					}
+					}
+					?>				
+
 				<!-- -->
 				<h4>2.- Son las medidas de matracas, manerales, dados, extensiones y accesorios.</h4>
 				<div id="2">

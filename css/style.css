@@ -1892,7 +1892,7 @@ h1, h2, h3, h4, h5, h6, figure {
     padding-top: 0.15em;
 }
 .fraction span.fdn {border-top: thin solid black;}
-.fraction span.fdown {border-top: }
+
 .fraction span.bar {display: none;}
 
 .radical {
