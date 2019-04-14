@@ -208,7 +208,7 @@
 						}
 					}
 					console.log("R1"+respuesta1);
-					console.log("R2"+respuesta2);
+					console.log("R2"+respuesta2);console.log("R2"+respuesta2);
 					}
 					
 					//
