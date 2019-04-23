@@ -74,7 +74,7 @@
 								<div class="col-xs-4 text-center">
 									<div class="form-group">
 										<label for="inputName"class="control-label" >Name: </label>
-										<input type="text" class="form-control" id="Nombrealumno" placeholder="Complete Name" required>
+										<input type="text" class="form-control" id="NombreAlumno" placeholder="Complete Name" required>
 									</div>
 								</div>
 								<div class="col-xs-4 text-center ">
@@ -92,13 +92,13 @@
 									<div class="col-xs-6 col-sm-3">
 										<div class="form-group">
 											<label for="inputName" class="control-label">Grade: </label>
-											<input type="text" class="form-control" id="Grado" placeholder="Subject-matter" required>
+											<input type="text" class="form-control" id="Grado" placeholder="Grade" required>
 										</div>
 							    </div>
 									<div class="col-xs-6 col-sm-3 text-center ">
 										  <div class="form-group">
 												<label for="inputName" class="control-label">Group: </label>
-										    <input type="text" class="form-control" id="Grupo" placeholder="Subject-matter"required>
+										    <input type="text" class="form-control" id="Grupo" placeholder="Group"required>
 											</div>
 									</div>
 											<a href="examen.php"><button type="button" class="btn btn-primary">Aceptar</button></a>	

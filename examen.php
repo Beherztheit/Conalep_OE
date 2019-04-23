@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by QBOOTSTRAP.COM" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="QBOOTSTRAP.COM" />
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
@@ -15,13 +14,6 @@
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
     <!-- Examen stilos -->
@@ -81,97 +73,97 @@
 				<!-- -->
 				<h4>3.- Son las herramientas para quitar y poner las bujías de 5/8 de un vehículo. </h4>
 				<div id="3">
-				    <input type="checkbox" id="checkbox1" value="option1">
+				    <input name="c" type="radio" id="tercera" value="Dado 5/8 para bujías, matraca 3/8 ,extensión larga 3/8 y calibrador de bujías">
 				    	a) Dado 5/8 para bujías, matraca 3/8 ,extensión larga 3/8 y calibrador de bujías.   
 				    	<br>
-			  		<input type="checkbox" id="checkbox2" value="option2">
+			  		<input name="c" type="radio" id="tercera" value="Dado 5/8,matraca 1/2, extensión corta 1/2 y lainas">
 			  			b)  Dado 5/8,matraca 1/2, extensión corta 1/2 y lainas.
 			  			<br>
-			  			<input type="checkbox" id="checkbox3" value="option3">
+			  			<input name="c" type="radio" id="tercera" value="Ninguna de las opciones">
 			  			c) Ninguna de las opciones.
 				</div>
 				<!-- -->
 				<h4>4.- Son las herramientas para desarmar y armar una cabeza de motor con tornillos estándar.</h4>
 				<div  id="4">
-				    <input type="checkbox" id="checkbox1" value="option1">
+				    <input name="d" type="radio" id="cuarta" value="Dados estándar y accesorios, torquimetro, juego de desarmadores, llaves allen, pinzas y martillos">
 				    	a) Dados estándar y accesorios, torquimetro, juego de desarmadores, llaves allen, pinzas y martillos.
 				    	<br>
-			  		<input type="checkbox" id="checkbox2" value="option2">
-			  			b) dados milimétricos, pinzas mecánicas y matracas.
+			  		<input name="d" type="radio" id="cuarta" value="Dados milimétricos, pinzas mecánicas y matracas">
+			  			b) Dados milimétricos, pinzas mecánicas y matracas.
 			  			<br>
-			  			<input type="checkbox" id="checkbox3" value="option3">
+			  			<input name="d" type="radio" id="cuarta" value="Dados y accesorios">
 			  			c) Dados y accesorios. 
 				</div>
 				<!-- -->
 				<h4>5.- Herramienta de medición que realiza mediciones de exteriores, interiores profundidad.</h4>
 				<div  id="5">
-				    <input type="checkbox" id="checkbox1" value="option1">
+				    <input name="e" type="radio" id="quinta" value="Micrómetro">
 				    	a) Micrómetro.
 				    	<br>
-			  		<input type="checkbox" id="checkbox2" value="option2">
+			  		<input name="e" type="radio" id="quinta" value="Flexómetro">
 			  			b) Flexómetro.
 			  			<br>
-			  			<input type="checkbox" id="checkbox3" value="option3">
+			  			<input name="e" type="radio" id="quinta" value="Vernier o pie de rey">
 			  			c) Vernier o pie de rey.
 				</div>
 				<!-- -->
 				<h4>6.- Forma y color de los señalamientos de prohibición.</h4>
 				<div  id="6">
-				    <input type="checkbox" id="checkbox1" value="option1">
+				    <input name="f" type="radio" id="sexta" value="Triangulo, amarillo y negro">
 				    	a) Triangulo, amarillo y negro.
 				    	<br>
-			  		<input type="checkbox" id="checkbox2" value="option2">
+			  		<input name="f" type="radio" id="sexta" value="Circulo y línea en diagonal, rojo y blanco">
 			  			b) Circulo y línea en diagonal, rojo y blanco.
 			  			<br>
-			  			<input type="checkbox" id="checkbox3" value="option3">
+			  			<input name="f" type="radio" id="sexta" value="Círculo, azul y blanco">
 			  			c) Círculo, azul y blanco.
 				</div>
 				<!-- -->
 				<h4>7.- Forma y color de los señalamientos obligación.</h4>
 				<div  id="7">
-				    <input type="checkbox" id="checkbox1" value="option1">
+				    <input name="g" type="radio" id="septima" value="Triangulo, amarillo y negro">
 				    	a) Triangulo, amarillo y negro.
 				    	<br>
-			  		<input type="checkbox" id="checkbox2" value="option2">
+			  		<input name="g" type="radio" id="septima" value="Circulo y línea en diagonal, rojo y blanco">
 			  			b) Circulo y línea en diagonal, rojo y blanco.
 			  			<br>
-			  			<input type="checkbox" id="checkbox3" value="option3">
+			  			<input name="g" type="radio" id="septima" value="Círculo, azul y blanco">
 			  			c) Círculo, azul y blanco.
 				</div>
 				<!-- -->
 				<h4>8.- Forma y color de los señalamientos advertencia.</h4>
 				<div  id="8">
-				    <input type="checkbox" id="checkbox1" value="option1">
+				    <input name="h" type="radio" id="octava" value="Triangulo, amarillo y negro">
 				    	a) Triangulo, amarillo y negro.
 				    	<br>
-			  		<input type="checkbox" id="checkbox2" value="option2">
+			  		<input name="h" type="radio" id="octava" value="Circulo y línea en diagonal, rojo y blanco">
 			  			b) Circulo y línea en diagonal, rojo y blanco.
 			  			<br>
-			  			<input type="checkbox" id="checkbox3" value="option3">
+			  			<input name="h" type="radio" id="octava" value="Círculo, azul y blanco">
 			  			c) Círculo, azul y blanco.
 				</div>
 				<!-- -->
 				<h4>9.- Forma y color de los señalamientos de vías de evacuación.</h4>
 				<div  id="9">
-				    <input type="checkbox" id="checkbox1" value="option1">
+				    <input name="i" type="radio" id="novena" value="Cuadrado o rectángulo, verde y blanco">
 				    	a) Cuadrado o rectángulo, verde y blanco.
 				    	<br>
-			  		<input type="checkbox" id="checkbox2" value="option2">
+			  		<input name="i" type="radio" id="novena" value="Cuadrado o rectángulo, rojo">
 			  			b) Cuadrado o rectángulo, rojo.
 			  			<br>
-			  			<input type="checkbox" id="checkbox3" value="option3">
+			  			<input name="i" type="radio" id="novena" value="Círculo, azul y blanco">
 			  			c) Círculo, azul y blanco.
 				</div>
 				<!-- -->
 				<h4>10.- Forma y color de los señalamientos contra incendios.</h4>
 				<div  id="10">
-				    <input type="checkbox" id="checkbox1" value="option1">
+				    <input name="j" type="radio" id="decima" value="Cuadrado o rectángulo, verde y blanco">
 				    	a) Cuadrado o rectángulo, verde y blanco.
 				    	<br>
-			  		<input type="checkbox"  id="checkbox2" value="option2">
+			  		<input name="j"  type="radio"  id="decima" value="Cuadrado o rectángulo, rojo">
 			  			b) Cuadrado o rectángulo, rojo.
 			  			<br>
-			  			<input type="checkbox" id="checkbox3" value="option3">
+			  			<input name="j"  type="radio" id="decima" value="Círculo, azul y blanco">
 			  			c) Círculo, azul y blanco.
 				</div>
 				<br>
@@ -193,7 +185,7 @@
 	//
 	//Respuestas seleccionadas
 	function detector() {
-		//Respuesta1
+		//Respuestas
 					var formulario = document.forms[0];
 					for (var i = 0; i < formulario.a.length; i++) {
 						if (formulario.primer[i].checked) {
@@ -206,9 +198,42 @@
 							var respuesta2=formulario.segunda[i].value+'.';
 						//break;
 						}
+						if (formulario.tercera[i].checked) {
+							var respuesta3=formulario.tercera[i].value+'.';
+						}
+						if (formulario.cuarta[i].checked) {
+							var respuesta4=formulario.cuarta[i].value+'.';
+						}
+						if (formulario.quinta[i].checked) {
+							var respuesta5=formulario.quinta[i].value+'.';
+						}
+						if (formulario.sexta[i].checked) {
+							var respuesta6=formulario.sexta[i].value+'.';
+						}
+						if (formulario.septima[i].checked) {
+							var respuesta7=formulario.septima[i].value+'.';
+						}
+						if (formulario.octava[i].checked) {
+							var respuesta8=formulario.octava[i].value+'.';
+						}
+						if (formulario.novena[i].checked) {
+							var respuesta9=formulario.novena[i].value+'.';
+						}
+						if (formulario.decima[i].checked) {
+							var respuesta10=formulario.decima[i].value+'.';
+						}
 					}
 					console.log("R1"+respuesta1);
-					console.log("R2"+respuesta2);console.log("R2"+respuesta2);
+					console.log("R2"+respuesta2);
+					console.log("R3"+respuesta3);
+					console.log("R4"+respuesta4);
+					console.log("R5"+respuesta5);
+					console.log("R6"+respuesta6);
+					console.log("R7"+respuesta7);
+					console.log("R8"+respuesta8);
+					console.log("R9"+respuesta9);
+					console.log("R10"+respuesta10);
+
 					}
 					
 					//
