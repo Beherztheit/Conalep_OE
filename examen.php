@@ -41,6 +41,7 @@
     <header>
         <div class="exam">
             <h1>Examen<h1>
+		
         </div>
     </header>
 
@@ -178,7 +179,7 @@
 				</div>
 				<br>
 				<!-- Boton para terminar examen-->
-				<center><a href="index.html"><button type="button" class="btn btn-success" id="fin">Terminar.</button></a></center>	
+				<center><a href="perfil_alum.php"><button type="button" class="btn btn-success" id="fin">Terminar.</button></a></center>	
 			</form>	
 						
 </div>
@@ -193,7 +194,6 @@
     <!--Contador-->
     <script type="text/javascript">
 		function redireccionar(){
-			window.location.href="Segundoexamen.html";
 			alert("Haz llegado al tiempo límite.");
 		}
 
@@ -214,3 +214,21 @@
 					}, 1000);
     </script>
        <!-- fin del contador -->
+<script language="javascript">
+	function checkKeyCode(evt)
+	{
+
+	var evt = (evt) ? evt : ((event) ? event : null);
+	var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+	if(event.keyCode==116)
+	{
+	evt.keyCode=0;
+	return false
+	}
+	}
+	document.onkeydown=checkKeyCode;
+	document.onkeydown=checkKeyCode;
+	window.location.hash="no-back-button";
+	window.location.hash="Again-No-back-button" //chrome
+	window.onhashchange=function(){window.location.hash="no-back-button";}
+</script>
