@@ -245,10 +245,6 @@
 					//
 					// Temporizador
 		function redireccionar(){
-<<<<<<< HEAD
-			window.location.href="login.php";
-=======
->>>>>>> ale
 			alert("Haz llegado al tiempo límite.");
 		}
 
