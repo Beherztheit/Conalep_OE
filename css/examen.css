@@ -1,8 +1,7 @@
 .exam{
     text-align: center;
     background-color: rgb(83,83,83);
-    height: 10rem;
-    padding: 2rem;
+    padding: 5rem;
 }
 h1{
     color: white;
@@ -16,4 +15,7 @@ h1{
 }
 #fin:hover{
     background-color: white;
+}
+div{
+    margin-bottom: 5rem;
 }

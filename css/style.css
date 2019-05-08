@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #34b8c0;
+  color: #5cb85c;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #34b8c0;
+  color: #5cb85c;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #34b8c0;
+  background: #5cb85c;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #34b8c0;
+  background: #5cb85c;
 }
 
 ::selection {
   color: #fff;
-  background: #34b8c0;
+  background: #5cb85c;
 }
 
 .qbootstrap-nav {
@@ -1530,7 +1530,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 50px;
   height: 50px;
   display: table;
-  background: #34b8c0;
+  background: #5cb85c;
   color: #fff;
   text-align: center;
   -webkit-border-radius: 50%;
@@ -1684,13 +1684,13 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: #34b8c0;
+  background: #059110;
   color: #fff;
-  border: 2px solid #34b8c0;
+  border: 2px solid #059110;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #42c4cc !important;
-  border-color: #42c4cc !important;
+  background: #0591118f !important;
+  border-color: #0591118f !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
