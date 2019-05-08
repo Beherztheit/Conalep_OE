@@ -169,11 +169,7 @@
 				</div>
 				<br>
 				<!-- Boton para terminar examen-->
-<<<<<<< HEAD
-				<center><a href="index.php"><button type="button" class="btn btn-success" id="fin">Terminar.</button></a></center>	
-=======
 				<center><a href="perfil_alum.php"><button type="button" class="btn btn-success" id="fin">Terminar.</button></a></center>	
->>>>>>> ale
 			</form>	
 						
 </div>
