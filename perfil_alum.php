@@ -82,8 +82,8 @@
         <label for="inputName"class="control-label" >Nombre del alumno: </label>
         <input type="text" class="form-control" id="alumno" placeholder="Nombre del alumno" disabled>
         <label for="inputName"class="control-label" >Grupo: </label>
-        <input type="text" class="form-control" id="grupo" placeholder="Nombre del alumno" disabled>
-        <label for="inputName"class="control-label" >Nombre del alumno: </label>
+        <input type="text" class="form-control" id="grupo" placeholder="Grupo" disabled>
+        <label for="inputName"class="control-label" >Materia: </label>
         <select name="materia" id="materia">
         <option></option>
         <option value="1">Primer materia</option>
