@@ -1,5 +1,5 @@
 window.addEventListener('load', function() {
     $('#iniciar').on('click', function() {
-       console.log("inii");
+       window.open("http://localhost/Conalep_OE/perfil_alum.php")
 	});
 });
