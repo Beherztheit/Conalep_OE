@@ -1721,6 +1721,26 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 
+.btn-up {
+  background: #f0ad4e;
+  color: #fff;
+  border: 2px solid #f0ad4e;
+  float: right;
+}
+.btn-up:hover, .btn-up:focus, .btn-up:active {
+  background: #f0ac4e9a !important;
+  border-color: #f0ac4e9a !important;
+}
+.btn-up.btn-outline {
+  background: transparent;
+  color: #5bc0de;
+  border: 2px solid #5bc0de;
+}
+.btn-up.btn-outline:hover, .btn-up.btn-outline:focus, .btn-up.btn-outline:active {
+  background: #5bc0de;
+  color: #fff;
+}
+
 .btn-info {
   background: #444235ad;
   color: #fff;
@@ -1740,6 +1760,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #5bc0de;
   color: #fff;
 }
+
 
 .btn-warning {
   background: #f0ad4e;

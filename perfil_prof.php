@@ -8,9 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>CONALEP</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by QBOOTSTRAP.COM" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="QBOOTSTRAP.COM" />
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
   <!-- 
@@ -92,7 +90,41 @@
 	<div class="clases">
 		<h3>Materias y grupos</h3>
 		<hr>
+			<div>
+			<button class="btn btn-up">Dar de alta una materia</button>
+			<button class="btn btn-up">Dar de alta un grupo</button>
+			</div>
+			<br>
+		<hr>
+
 			<li class="class">Materias</li>
+			<br>
+			<div>
+			<table id="table" class="table">
+				<thead>
+					<tr>
+						<th>Grupo</th>
+						<th>Materia</th>
+						<th>Opciones</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>2201</td>
+						<td>MHEA</td>
+						<td><button >Subir examen</button><button >Reporte de calificaciones</button></td>
+
+					</tr>
+					<tr>
+						<td>2202</td>
+						<td>MHEA</td>
+						<td><button>Subir examen</button><button>Reporte de calificaciones</button></td>
+
+					</tr>
+
+				</tbody>
+			</table>
+			</div>
 	</div>
 
 	<div class="gototop js-top">
