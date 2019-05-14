@@ -81,8 +81,8 @@
     <hr>
         <label for="inputName"class="control-label" >Nombre del profesor: </label>
         <input type="text" class="form-control" id="profesor" placeholder="Nombre del profesor" disabled>
-		<label for="inputName"class="control-label" >Matricula: </label>
-        <input type="text" class="form-control" id="matricula" placeholder="Matricula" disabled>
+		<label for="inputName"class="control-label" >Número de profesor: </label>
+        <input type="text" class="form-control" id="matricula" placeholder="Número de profesor" disabled>
 		<hr>
 		<button class="btn btn-info">Editar</button>
     </div>
@@ -91,11 +91,38 @@
 		<h3>Materias y grupos</h3>
 		<hr>
 			<div>
-			<button class="btn btn-up">Dar de alta una materia</button>
-			<button class="btn btn-up">Dar de alta un grupo</button>
+				<button id="altam" class="btn btn-up">Dar de alta una materia</button>
 			</div>
 			<br>
 		<hr>
+		<!-- MODAL DAR DE ALTA MATERIA -->
+        <div class="modal fade" id="materia" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">   
+                  <div id="page" style="padding:5% 15% 5%;">
+                    <nav class="qbootstrap-nav" role="navigation">
+						<label>Número de profesor: </label>
+						<input type="text" class="form-control" id="nprof" placeholder="Número de profesor" disabled>
+						<label>Nombre del profesor: </label>
+						<input type="text" class="form-control" id="prof" placeholder="Nombre del profesor" disabled>
+						<label for="inputName"class="control-label" >Código de materia: </label>
+						<input type="text" class="form-control" id="codmateria" placeholder="Código de materia">
+						<label for="inputName"class="control-label" >Nombre de la materia: </label>
+						<input type="text" class="form-control" id="materia" placeholder="Nombre de la materia">
+						<label for="inputName"class="control-label" >Grupo:</label>
+						<input type="text" class="form-control" id="grupo" placeholder="Grupo" disabled>
+						<label for="inputName"class="control-label" >Lista de alumnos </label>
+						<input type="file" id="lista" >
+						<br>
+						<p style="color:red;  font-weight: bold;"> *La lista de alumnos debe contener NÚMERO DE LISTA/ NÚMERO DE CONTROL/ NOMBRE DEL ALUMNO</p>
+						<button id="subirmat" class="btn btn-info">Alta</button>
+					</nav>
+				 </div>
+				 </div>
+				 </div>
+		</div>
+		<!-- FIN MODAL DAR DE ALTA MATERIA -->
+
 
 			<li class="class">Materias</li>
 			<br>
@@ -112,13 +139,13 @@
 					<tr>
 						<td>2201</td>
 						<td>MHEA</td>
-						<td><button >Subir examen</button><button >Reporte de calificaciones</button></td>
+						<td><acromym title="Subir examen"><button ><i class="material-icons">unarchive</i></button><acromym title="Descargar calificaciones"><button ><i class="material-icons">assignment_returned</i></button></td>
 
 					</tr>
 					<tr>
 						<td>2202</td>
 						<td>MHEA</td>
-						<td><button>Subir examen</button><button>Reporte de calificaciones</button></td>
+						<td><acromym title="Subir examen"><button ><i class="material-icons">unarchive</i></button><acromym title="Descargar calificaciones"><button ><i class="material-icons">assignment_returned</i></button></td>
 
 					</tr>
 
@@ -155,7 +182,8 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 	<script src="js/examen.js"></script>
-
+	<!-- profesor js -->
+	<script src="js/profesor.js"></script>
 	</body>
 </html>
 
