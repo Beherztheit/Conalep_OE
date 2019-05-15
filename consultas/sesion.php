@@ -4,8 +4,13 @@
 	$hostname="localhost";
 	$username="root";
 	$password="";
-	$dbname="examenesco";
+	$dbname = "examenesco";
 
-	
-	mysqli_connect($hostname,$username,$password) or die ("No se ha podido conectar al servidor de Base de datos");
+	$conn = new mysqli($hostname, $username, $password, $dbname);
+	// Check connection
+	if ($conn->connect_error) {
+		die("Connection failed: " . $conn->connect_error);
+	}else{
+		echo "conexion establecida";
+	}
 ?>

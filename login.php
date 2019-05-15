@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 </head>
+
 <body>
 	
 	<div class="limiter">
@@ -38,8 +39,14 @@
 						<span class="symbol-input100">
 							<i class="fa fa-lock" aria-hidden="true"></i>
 						</span>
-			
-					
+						<br>
+						<div class="select">
+							<label>Tipo de usuario </label><select name="user" id="user" onchange="user(event)">
+								<option value=""></option>
+								<option value="profesor">Profesor</option>
+								<option value="alumno">Alumno</option>
+							</select>
+						</div>
 					<div class="container-login100-form-btn">
 						<button id="iniciar" class="login100-form-btn">
 							Iniciar sesión

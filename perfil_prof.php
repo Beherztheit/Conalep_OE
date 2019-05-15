@@ -139,7 +139,7 @@
 					<tr>
 						<td>2201</td>
 						<td>MHEA</td>
-						<td><acromym title="Subir examen"><button ><i class="material-icons">unarchive</i></button><acromym title="Descargar calificaciones"><button ><i class="material-icons">assignment_returned</i></button></td>
+						<td><acromym title="Subir examen"><button id="examensubida"><i class="material-icons">unarchive</i></button><acromym title="Descargar calificaciones"><button ><i class="material-icons">assignment_returned</i></button></td>
 
 					</tr>
 					<tr>
@@ -154,6 +154,23 @@
 			</div>
 	</div>
 
+		<!-- MODAL 	SUBIR EXAMEN -->
+        <div class="modal fade" id="sexamen" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">   
+                  <div id="page" style="padding:5% 15% 5%;">
+                    <nav class="qbootstrap-nav" role="navigation">
+					<p style="color:red;  font-weight: bold;"> *El examen debe contener NÚMERO DE PREGUNTA/PREGUNTA/OPCIÓN 1/OPCIÓN 2/OPCIÓN 3/RESPUESTA</p>
+						<label for="inputName"class="control-label">Examen</label>
+						<input type="file" id="lista" >
+						<br>
+						<button id="subirmat" class="btn btn-info">Subir</button>
+					</nav>
+				 </div>
+				 </div>
+				 </div>
+		</div>
+		<!-- FIN MODAL SUBIR EXAMEN -->
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
